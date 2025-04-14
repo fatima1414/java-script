@@ -92,4 +92,4 @@ console.log("Outside block using var:", num); // Still accessible
 
 // let num = parseInt(prompt("Enter a number:"));
 // console.log(num);
-// console.log(typeof num); // to change string to float or int use  parseInt or  parsefloat
+// console.log(typeof num); // to change string to float or int use  parseInt or  parsefloat 
