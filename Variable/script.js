@@ -18,11 +18,11 @@
 // console.log(username);
 
 // Even if var is inside a block, it's accessible outside
-{
-  var num = 10;
-  console.log("Inside block using var:", num);
-}
-console.log("Outside block using var:", num); // Still accessible
+// {
+//   var num = 10;
+//   console.log("Inside block using var:", num);
+// }
+// console.log("Outside block using var:", num); // Still accessible
 
 // Using let:
 // - Block scoped (only accessible inside the block)
