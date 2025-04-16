@@ -67,7 +67,7 @@
 // console.log(typeof {});//array object
 // console.log(typeof []); //object
 
-//9
+//9 unairay operator
 // let x = 5;
 
 // console.log(x++); //5
