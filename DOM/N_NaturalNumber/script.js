@@ -25,6 +25,7 @@ let answer = document.getElementsByClassName("answer");
 
 function sumNatural() {
     let sum = 0;
+    // let data = parseInt(document.getElementsByClassName("input-num")[0].value);
     let data = parseInt(document.getElementById("input-num").value);
     
     if (isNaN(data)) {
@@ -40,6 +41,7 @@ function sumNatural() {
         answer[0].innerHTML = `<b> Sum : ${sum} </b>`;
 
     }
+
 
 
 
