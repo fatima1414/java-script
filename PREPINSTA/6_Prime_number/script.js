@@ -43,14 +43,13 @@
 //PRIME NUMBER URL
 function checkData() {
     let start= parseInt(document.getElementById("input-num1").value);
-    // let end  = parseInt(document.getElementById("input-num1").value);
     let print = document.getElementById("prime");
 
-    for (let num = 1; num <= start; num++) {
+   
             let count = 0;
-            for (let i = 1; i <= num; i++) {
+            for (let i = 1; i <= start; i++) {
                
-                if (num % i == 0) {
+                if (start % i == 0) {
                     ++count;
                  
                 }
@@ -62,7 +61,7 @@ function checkData() {
                 print.innerText = "it is a not prime number";
             }
         }
-    }
+    
 
 
 // for (let num = start; num <= end; num++) {
