@@ -28,10 +28,10 @@
 // for (let num = start; num <= end; num++) {
 //     let count = 0;
 //     for (let i = 1; i <= num; i++) {
-       
+
 //         if (num % i == 0) {
 //             ++count;
-         
+
 //         }
 //     }
 
@@ -40,28 +40,28 @@
 //     }
 // }
 
-//PRIME NUMBER URL
-function checkData() {
-    let start= parseInt(document.getElementById("input-num1").value);
-    let print = document.getElementById("prime");
+// //PRIME NUMBER URL
+// function checkData() {
+//     let start= parseInt(document.getElementById("input-num1").value);
+//     let print = document.getElementById("prime");
 
-   
-            let count = 0;
-            for (let i = 1; i <= start; i++) {
-               
-                if (start % i == 0) {
-                    ++count;
-                 
-                }
-            }
-        
-            if (count == 2) {
-                print.innerText = "it is a prime number";
-            }else{
-                print.innerText = "it is a not prime number";
-            }
-        }
-    
+
+//             let count = 0;
+//             for (let i = 1; i <= start; i++) {
+
+//                 if (start % i == 0) {
+//                     ++count;
+
+//                 }
+//             }
+
+//             if (count == 2) {
+//                 print.innerText = "it is a prime number";
+//             }else{
+//                 print.innerText = "it is a not prime number";
+//             }
+//         }
+
 
 
 // for (let num = start; num <= end; num++) {
@@ -77,4 +77,22 @@ function checkData() {
 // }
 
 // print.innerText = "Prime numbers: " + result;
+// }
+
+
+// sir code 
+// let num = 2;
+// let count = 0;
+
+// for (let i = 1; i <= num; i++) {
+//     if (num % i == 0) {
+//         count++;
+//     }
+// }
+
+
+// if (count === 2) {
+//     console.log ( `${ num } is prime number!`);
+// } else {
+//     console.log(` ${ num } is not prime number!`);
 // }

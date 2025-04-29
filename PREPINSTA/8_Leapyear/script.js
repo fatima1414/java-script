@@ -32,22 +32,33 @@
     //   }
     // }
 
-    function isLeapYear(year) {
-      return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
-    }
+    // function isLeapYear(year) {
+    //   return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+    // }
 
-    function checkLeapYear() {
-      const year = document.getElementById("yearInput").value;
-      const result = document.getElementById("result");
+    // function checkLeapYear() {
+    //   const year = document.getElementById("yearInput").value;
+    //   const result = document.getElementById("result");
 
-      if (year === "") {
-        result.textContent = "Please enter a year!";
-        return;
-      }
+    //   if (year === "") {
+    //     result.textContent = "Please enter a year!";
+    //     return;
+    //   }
 
-      if (isLeapYear(Number(year))) {
-        result.textContent = year + " is a Leap Year! 🎉";
-      } else {
-        result.textContent = year + " is NOT a Leap Year.";
-      }
-    }
+    //   if (isLeapYear(Number(year))) {
+    //     result.textContent = year + " is a Leap Year! 🎉";
+    //   } else {
+    //     result.textContent = year + " is NOT a Leap Year.";
+    //   }
+    // }
+
+    // let year = 1996;
+
+    // if(year % 400 == 0){
+    //     console.log(`${year} is leap year! `);
+    // }else if(year % 4 == 0 && year % 100 !== 0){
+    //    console.log(`${year} is leap year! `);
+    // }else{
+    //     console.log(`${year} is not leap year!`)
+    // }
+  
