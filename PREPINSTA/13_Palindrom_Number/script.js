@@ -39,5 +39,3 @@ let rev = 0;
     console.log(originalNum + " is NOT a Palindrome Number");
   }
 
-
-8
