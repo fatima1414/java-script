@@ -32,7 +32,7 @@
 //     console.log(${input} is NOT armstrong number);
 // }   
 
-
+//without function
 let num = 153;
 let temp = num;
 let digits = 0;
